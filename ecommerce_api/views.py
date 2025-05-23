@@ -5,6 +5,7 @@ from flask import jsonify, send_from_directory
 from ecommerce_api.factory import app
 
 
+
 @app.route("/routes")
 def site_map():
     links = []
