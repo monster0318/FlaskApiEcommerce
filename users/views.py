@@ -8,6 +8,7 @@ from shared.serializers import get_success_response
 from users.models import User
 
 
+
 @blueprint.route('/users', methods=['POST'])
 def register():
     first_name = request.json.get('first_name', None)
