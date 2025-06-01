@@ -3,6 +3,7 @@ from flask_jwt_extended import jwt_required, get_jwt_claims, current_user
 from sqlalchemy import desc
 
 from ecommerce_api.factory import db
+
 from products.models import Product
 from comments.models import Comment
 from comments.serializers import CommentListSerializer, CommentDetailsSerializer
